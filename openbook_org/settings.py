@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/2.0/ref/settings/
 """
 
 import os
+import django_heroku 
 import sentry_sdk
 
 sentry_sdk.init("https://b4e45e84fa73420d91989e9122d08e4d@sentry.io/1212322")
